@@ -1,0 +1,47 @@
+/*Destop design*/
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
+}
+.main-container{
+  border-radius: 15px;
+  background-color: hsl(0,0%,100%);
+  padding: 13px;
+  text-align: center;
+  width: 30%;
+  margin: 50px auto;
+}
+.image-container img{
+  border-radius: 10px;
+  width: 100%;
+}
+.text-a{
+  /*font-size: 25px;*/
+  color: hsl(218, 44%, 22%);
+  font-weight: 700px;
+  padding: 5px 2px;
+}
+.text-b{
+  color: hsl(216, 15%, 48%);
+  font-size: 15px;
+  font-weight: 400px;
+  padding: 5px 65px;
+}
+/*Mobile design*/
+@media screen and (max-width: 375px){
+  .main-container{
+    border-radius: 13px;
+    padding: 15px;
+    width: 90%;
+    margin: 20px auto;
+  }
+  .text-a{
+    font-size: 27px;
+  }
+  .text-b{
+    padding: 5px 35px;
+  }
+}
