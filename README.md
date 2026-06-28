@@ -16,7 +16,7 @@ This project was my very first challenge on Frontend Mentor. It focuses on creat
 - Semantic HTML5
 - CSS Flexbox
 - Media Queries
-- Google Font
+- Google Font(Outfit)
 
 ## Key learnings
 
